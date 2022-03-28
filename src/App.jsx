@@ -1,11 +1,12 @@
-
-import './App.css';
+import Routes from "./Routes";
+import { GlobalStyle } from "./assets/styles/GlobalStyles";
 
 function App() {
   return (
-    <div >
-      
-    </div>
+    <>
+    <GlobalStyle />
+      <Routes />
+    </>
   );
 }
 
