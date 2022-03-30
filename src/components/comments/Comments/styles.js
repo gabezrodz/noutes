@@ -3,6 +3,6 @@ import styled from "styled-components";
 export const Comment = styled.section`
   text-align: center;
   & > button {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
   }
 `;

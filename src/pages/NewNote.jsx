@@ -1,5 +1,11 @@
+import NoteForm from "../components/notes/NoteForm";
+
 const NewNote = () => {
-  return <h1>Página de nova nota</h1>
+  const addNoteHandler = (noteData) => {
+    console.log(noteData)
+  };
+
+  return <NoteForm  onAddNote={addNoteHandler}/>;
 };
 
 export default NewNote;
